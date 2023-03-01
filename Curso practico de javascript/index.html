@@ -7,11 +7,11 @@
     <title>Manipulación del DOM básico</title>
 </head>
 <body>
-    <h1 class="verde">Manupulación del DOM básico</h1>
-    <p>Esto es un párrafo</p>
-    <p class="parrafito">Esto es un párrafo con clase</p>
-    <p id="pid">Esto es un parrafo con id</p>
-    <input type="text" placeholder="Escribe algo aqui">
+    <h1>Manupulación del DOM básico</h1>
+    <input id="calculo1" placeholder="Escribe algo aqui">
+    <input onchange="console.log('Cambió el input')" id="calculo2" placeholder="Escribe algo aqui">
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+    <p id="result"></p>
     <script src="./script.js"></script>
 </body>
 </html>
