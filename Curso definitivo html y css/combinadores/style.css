@@ -5,6 +5,18 @@
 
 /* Hernano general */
 
-h2 ~ p {
+/* h2 ~ p {
+    color: red;
+} */
+
+/* Combinador child */
+
+/* div > p {
+    color: red;
+} */
+
+/* Descendiente */
+
+div p {
     color: red;
 }
