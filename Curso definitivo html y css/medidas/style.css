@@ -8,14 +8,31 @@ p {
     margin: 0;
 } */
 
+/* em */
+
 /* body {
     font-size: 20px;
 } */
 
-.text-container {
+/* .text-container {
     font-size: 1.5em;
 }
 
 .text-container div {
     font-size: 1.5em;
+} */
+
+
+/* rem */
+
+html {
+    font-size: 62.5%;  /* Equivale a 10 px si 16px es 100%*/
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
 }
