@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.main-texto {
+    background-color: grey;
+    width: 50rem;
+    height: 30rem;
+    margin: 5rem auto;
+    border-radius: 2rem;
+}
+
+.main-texto p:first-child {
+    font-size: 2rem;
+    background-color: red;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 2rem 5rem;
+    display: inline-block;
+    position: relative;
+    bottom: 3rem;
+    left: 26%;
+    text-align: center;
+}
+
+.main-texto p:last-child {
+    font-size: 2rem;
+    margin: 4rem 1rem;
+    text-align: center;
+}
