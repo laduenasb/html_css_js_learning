@@ -10,7 +10,26 @@ header {
     height: 60px;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
 }
