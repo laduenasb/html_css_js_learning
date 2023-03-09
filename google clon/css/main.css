@@ -99,8 +99,8 @@ main .main-input .search-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
 }
 
 main .main-input .micro-icon {
@@ -108,8 +108,8 @@ main .main-input .micro-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -140,5 +140,37 @@ main .main-buttons button:hover {
     color: #222;
 }
 
-/* main footer */
+/* footer */
 
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
